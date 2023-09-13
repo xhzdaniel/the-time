@@ -1,10 +1,10 @@
 
 import './App.css';
 import React, { useEffect, useState } from 'react';
-import { getApiInfo } from './componentes/getApiInfo';
-import { Home } from './componentes/Home';
-import { Buscador } from './componentes/Buscador';
-import { Footer } from './componentes/footer';
+import { getApiInfo } from './components/getApiInfo';
+import { Home } from './components/Home';
+import { Search } from './components/Search';
+import { Header } from './components/Header';
 
 function App() {
 
@@ -40,14 +40,11 @@ function App() {
 
   return (
 <>
-<Footer />
-    
-    <div className='App' >
+<Header />
+    <div className='app' >
       <div>
-        
         <Home data={data} />
-        <Buscador sumit={sumit} />
-
+        <Search sumit={sumit} />
       </div>
     </div>
     </>

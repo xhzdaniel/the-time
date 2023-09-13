@@ -1,57 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
 * {
   margin: 0;
   user-select: none;
 }
 
 body {
-   background-color: rgb(18, 18, 18);
+   background-color: #080808;
 }
 
-.App {
+.app {
   justify-content: center;
   align-items: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   height: 700px;
-  
-
 }
 
-.Info {
+.info {
   height: 150px;
   justify-content: center;
   text-align: center;
   width: 500px;
-  
 }
 
-.Info h1 {
-
+.info h1 {
   color: #fff;
   font-size: 60px;
 }
-.Info h2 {
-
+.info h2 {
   color: #fff;
   font-size: 40px;
 }
-
 
 .country {
   transform: translateX(-50px);
 }
 
-
-
-.buscador {
+.search {
   display: flex;
   justify-content: center;
   padding: 10px;
 }
 
-.buscador input {
+.search input {
   border: 0;
-  background-color: rgb(52, 52, 52);
   padding-top: 15px;
   color: #000000;
   padding-bottom: 15px;
@@ -64,11 +57,12 @@ body {
   transform: translate(30px);
   outline: none;
 }
-.buscador button {
+
+.search button {
   border: 0;
-  background-color: rgb(49, 49, 49);
-  
+  background-color: #080808;
   color: #ffffff;
+  font-weight: 700;
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 10px;
@@ -76,7 +70,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   cursor: pointer;
-  transform: translateX(-51px);
+  transform: translateX(-70px);
 }
 
 .img {
@@ -84,7 +78,7 @@ body {
   height: 60px;
 }
 
-.Footer {
+.header {
   position: fixed;
   display: flex;
   align-items: center;
@@ -92,7 +86,7 @@ body {
   color: rgb(158, 158, 158);
 }
 
-.Footer img {
+.header img {
   transition: all linear .3s;
   cursor: crosshair;
   padding: 20px;
@@ -101,21 +95,20 @@ body {
   animation-iteration-count: infinite;
 }
 
-.Footer img:hover {
+.header img:hover {
   transition: all linear .3s;
   transform: rotateZ(80deg);
 }
 
-.Footer h1 {
+.header h1 {
   font-size: 30px;
 }
 
-.Footer a{
+.header a{
 font-size: 12px;
 color: rgb(158, 158, 158);
 text-decoration: none;
 }
-
 
 @keyframes trs {
   0% {transform: rotateZ(0deg);}

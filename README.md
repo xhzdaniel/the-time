@@ -1,9 +1,4 @@
-# EL TIEMPO WEB
+# The Time
+It is a website that tells you the time information in a specific place
 
-Es una web que te dice la información del tiempo en un sitio en concreto. Puedes probarla en https://eltiempo.luc4s.dev
-
-![https://eltiempo.luc4s.dev](https://cdn.discordapp.com/attachments/1058376649609060412/1095080198497640579/image.png)
-
-
-
-Todos los derechos reservados a Luc4s.dev
+![Preview](https://cdn.discordapp.com/attachments/884286137873625178/1151406788768432188/Screenshot_47.png)
