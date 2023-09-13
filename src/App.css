@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  user-select: none;
+}
+
+body {
+   background-color: rgb(18, 18, 18);
+}
+
+.App {
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  height: 700px;
+  
+
+}
+
+.Info {
+  height: 150px;
+  justify-content: center;
+  text-align: center;
+  width: 500px;
+  
+}
+
+.Info h1 {
+
+  color: #fff;
+  font-size: 60px;
+}
+.Info h2 {
+
+  color: #fff;
+  font-size: 40px;
+}
+
+
+.country {
+  transform: translateX(-50px);
+}
+
+
+
+.buscador {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.buscador input {
+  border: 0;
+  background-color: rgb(52, 52, 52);
+  padding-top: 15px;
+  color: #000000;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 95px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+  transform: translate(30px);
+  outline: none;
+}
+.buscador button {
+  border: 0;
+  background-color: rgb(49, 49, 49);
+  
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  zoom: 85%;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  transform: translateX(-51px);
+}
+
+.img {
+  transform: translateX(120px) translateY(80px);
+  height: 60px;
+}
+
+.Footer {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(158, 158, 158);
+}
+
+.Footer img {
+  transition: all linear .3s;
+  cursor: crosshair;
+  padding: 20px;
+  animation-name: trs;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+.Footer img:hover {
+  transition: all linear .3s;
+  transform: rotateZ(80deg);
+}
+
+.Footer h1 {
+  font-size: 30px;
+}
+
+.Footer a{
+font-size: 12px;
+color: rgb(158, 158, 158);
+text-decoration: none;
+}
+
+
+@keyframes trs {
+  0% {transform: rotateZ(0deg);}
+  80% {transform: rotateZ(360deg);}
+  100% {transform: rotateZ(0deg);}
+
+}
+
